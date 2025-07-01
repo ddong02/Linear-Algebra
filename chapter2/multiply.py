@@ -1,5 +1,8 @@
 ### 행렬곱을 수행하는 코드
 
+# 행렬 A의 i행과 행렬 B의 j열의 대응하는 원소끼리 서로 곱한 후 더하는 방식으로 구한다
+# result = k → from 1 to A.cols(or B.rows), A[i][k] * b[k][j]
+
 import numpy as np
 
 def multiplyMatrix(Mat1, Mat2):
